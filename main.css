@@ -1,13 +1,9 @@
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-#pomodoro-page {
-    background-color: red;
-  }
   
   #pomodoro-container {
     display: flex;
@@ -15,6 +11,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: lightgrey;
   }
   
   #pomodoro-clock {

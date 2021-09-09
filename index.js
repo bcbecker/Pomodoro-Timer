@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const stopButton = document.querySelector("#pomodoro-stop");
 
   let isClockRunning = false;
-  // in seconds = 25 mins
+  // 25 min in seconds
   let workSessionDuration = 1500;
   let currentTimeLeftInSession = 1500;
 
-  // in seconds = 5 mins;
+  // 5 min in seconds
   let breakSessionDuration = 300;
 
   let timeSpentInCurrentSession = 0;
